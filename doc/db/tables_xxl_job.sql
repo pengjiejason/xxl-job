@@ -2,8 +2,8 @@
 # XXL-JOB v2.3.1-SNAPSHOT
 # Copyright (c) 2015-present, xuxueli.
 
-CREATE database if NOT EXISTS `xxl_job` default character set utf8mb4 collate utf8mb4_unicode_ci;
-use `xxl_job`;
+CREATE database if NOT EXISTS `xxl_job_test` default character set utf8mb4 collate utf8mb4_unicode_ci;
+use `xxl_job_test`;
 
 SET NAMES utf8mb4;
 

@@ -37,6 +37,7 @@ public class JobFailMonitorHelper {
 				// monitor
 				while (!toStop) {
 					try {
+						logger.info("run JobFailMonitorHelper -------");
 
 						List<Long> failLogIds = XxlJobAdminConfig.getAdminConfig().getXxlJobLogDao().findFailJobLogIds(1000);
 						if (failLogIds!=null && !failLogIds.isEmpty()) {
